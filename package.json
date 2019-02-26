@@ -1,0 +1,30 @@
+{
+  "name": "das-cli",
+  "version": "0.0.0",
+  "description": "Simple CLI for the Das-keyboard (native) driver without all the ReST fluff",
+  "bin": {
+    "das": "./app.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "das",
+    "keyboard"
+  ],
+  "author": "Matt Carter <m@ttcarter.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@diefarbe/lib": "0.0.4",
+    "chalk": "^2.4.2",
+    "color-name": "^1.1.4",
+    "commander": "^2.19.0",
+    "lodash": "^4.17.11",
+    "rgb-hex": "^2.1.0",
+    "tslib": "^1.9.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
