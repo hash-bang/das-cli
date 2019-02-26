@@ -8,12 +8,20 @@
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hash-bang/das-cli.git"
+  },
   "keywords": [
     "das",
     "keyboard"
   ],
   "author": "Matt Carter <m@ttcarter.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hash-bang/das-cli/issues"
+  },
+  "homepage": "https://github.com/hash-bang/das-cli#readme",
   "dependencies": {
     "@diefarbe/lib": "0.0.4",
     "chalk": "^2.4.2",
